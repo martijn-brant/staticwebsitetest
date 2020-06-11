@@ -24,11 +24,6 @@
         "errorType": "Unauthorized_MissingRoles",
         "statusCode": "301",
         "serve": "/notallowed.html"
-      },
-      {
-        "errorType": "Unauthorized",
-        "statusCode": "301",
-        "serve": "/notallowed.html"
       }
     ]
   }
