@@ -18,7 +18,7 @@
       {
         "errorType": "Unauthenticated",
         "statusCode": "301",
-        "serve": "/login"
+        "serve": "/notallowed.html"
       }
     ]
   }
