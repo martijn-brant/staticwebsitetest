@@ -1,0 +1,24 @@
+{
+    "routes": [
+      {
+        "route": "/secret",
+        "allowedRoles": ["matties"]
+      },
+      {
+        "route": "/login",
+        "serve": "/.auth/login/github"
+      },
+      {
+        "route": "/logout",
+        "serve": "/.auth/logout"
+      }
+    ],
+    "platformErrorOverrides": [
+
+      {
+        "errorType": "Unauthenticated",
+        "statusCode": "301",
+        "serve": "/login"
+      }
+    ]
+  }
